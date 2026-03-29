@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>my profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="loader()">
+    <div id="Loading"></div>
+     <!-----start Hearder section----->
+     <div id="hearder"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <div class="contenier">
+            <nav >
+                <img src="img/ss logo.png" alt="logo" class="logo" data-aos="zoom-in">
+                <ul id="sidmenu" data-aos="zoom-in">
+                    <li><a href="#hearder" >Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio" >Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text"  data-aos="fade-right">
+                <p> </p>
+                <h1>Hi I am <span>Shivam saini </span> <br> From saharanpur</h1>
+              </div>       
+               
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+      <!-----start About section----->
+      <div id="about"data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="img/shivam.jpg" data-aos="zoom-in" >  
+                </div>
+                <div class="about-col-2" data-aos="zoom-in">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Currently pursuing MCA at Shobhit University, Gangoh — building skills today to be a developer tomorrow.</p>
+                   <div class="tab-titles" data-aos="fade-left">
+                    <p class="tab-links active-link " onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">skills</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Education" data-aos="zoom-in">
+                   <ul>
+                        <li><span>Bachlour degree in computer Application</span><br>Shobhit university gangoh</li>
+                        <li><span>Master degree in computer Application(persuing)</span><br>Shobhit university gangoh</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Experience" >
+                    <ul>
+                        <li><span> PANWAR AVOCADO TECH PLC</span><br>Web & Digital Marketing Intern</li>
+                        <li><span> Anarus</span><br>Data Entry Specialist</li>
+                        <li><span> Teach To India Publication </span><br>Executive – Digital & Technical Operations</li>
+                      
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="skills">
+                     <ul>
+                        <li><span>C++</span><br>Competitive programming</li>
+                        <li><span>Web Development</span><br> Web App development</li>
+                        <li><span>Powerpoint Design</span><br>I make professional slides in Powerpoint</li>
+                        <li><span>logo Desiger</span><br> 2 year experience with logo Designing </li>
+                        <li><span>MS WORD , MS OFFICE </span><br> professional at MS WORD and MS OFFICE</li>
+                    </ul>
+
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+      <!-----Service section Start----->
+     <div id="services" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+        <div class="contenier" >
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div data-aos="fade-right">
+                    <img src="img/flag.png">
+                    <h2>Web Development</h2>
+                    <p>Creating websites from ideas.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="flip-up">
+                    <img src="img/pancel.png" >
+                    <h2> Graphic Designer</h2>
+                    <p>Designs that make brands stand out.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="fade-left">
+                    <img src="img/grars.png" >
+                    <h2>Digital Marketing</h2>
+                    <p>Be where the world is going.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+      <!----services section end ----->
+        <!----portfolio section Start ----->
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title"> Projects </h1>
+                <p>Creative endeavours will reveal one's talent and commitment..</p>
+                <div class="work-list" >
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio2.png" >
+                        <div class="layer">
+                            <h3>E-education Website</h3>
+                            <p>This website has been developed for an internship!</p>
+                            <a target="_blank"  href="https://teachtoindia.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio3.png" >
+                        <div class="layer">
+                            <h3>Aura Gaint</h3>
+                            <p>"This website is for Digital Marketing" </p>
+                            <a target="_blank"  href="https://auragaint.com"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio4.png" >
+                        <div class="layer">
+                            <h3>noteswala</h3>
+                            <p>Currrently On progress</p>
+                            <a target="_blank"  href="https://notewala.auragaint.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href=" " class="btn">MORE UPCOMING PROJECTS</a>
+            </div>
+        </div>
+         <!----portfolio section End ----->
+          <!----Contact section Start ----->
+          <div id="contact"  >
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left"  data-aos="fade-up-right">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>shivamsaini28.07.04@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>8445177783</p>
+                        <div class="social-icons" data-aos="zoom-in">
+            
+                            <a href="https://www.instagram.com/avi._844?igsh=MTY1d21sOGxjMmc2aQ%3D%3D&utm_source=qr" class="fa fa-instagram"></a>
+                            <a href="https://www.linkedin.com/in/shivamsaini2807/" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/Shivam-2807" class="fa fa-Github"></a>
+                        </div>
+                        <a href="shivam s.pdf" class="btn btn2">View Resume</a>
+                    </div>
+                    <div class="contact-right" data-aos="fade-up-left">
+                        <form >
+             <h4>
+    👨‍💻 Creative and detail-oriented IT professional pursuing a <b>Master of Computer Applications (MCA)</b>, with strong skills in<br>
+    🌐 Web Design, 🎨 Logo & Poster Designing, and 💻 Website Development using <b>HTML, CSS & JavaScript</b>.<br><br>
+
+    📚 Completed an <b>11-month internship</b> leading to a full-time role at <b>TeachToIndia.com</b>, contributing to:<br>
+    • 🔧 Digital operations<br>
+    • 🛠️ Technical support<br>
+    • 👥 Team management<br><br>
+
+    🔐 Certified in cybersecurity through the <b>DROP Certified Security Course (DCSC)</b>.<br><br>
+
+    🚀 Known for fast learning and independent working style — able to deliver results quickly with minimal guidance.<br>
+    🤝 Effective team leader with proven project coordination skills and a track record of delivering<br>
+    ⭐ High-quality digital solutions.
+</h4>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright@ shivam .<i class="fa-solid fa-heart"></i> website developed by Shivam Saini </p>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->
+          <script>
+            var preloader = document.getElementById("Loading");
+            function loader(){
+              preloader.style.display = 'none';
+            }
+          </script>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+      </script>
+      
+    <!-- aos data  -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 900,
+        });
+      </script>
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
